@@ -17,6 +17,7 @@
 .navbar-user-name {
   padding-top: 14px;
   padding-left: 15px;
+  color: #337ab7;
 }
 
 body {
@@ -27,6 +28,9 @@ body {
   ),
   url('clouds.png');
 
+  background-attachment: fixed;
+  background-position: center;
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,4 +40,8 @@ body {
 .navbar {
   background-color: white;
   opacity: 0.5;
+}
+
+.icon-bar {
+  color: #337ab7;
 }
